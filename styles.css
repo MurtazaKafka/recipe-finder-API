@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 102, 255, 0.185);
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    color: rgba(25, 0, 255, 0.616);
+    letter-spacing: .3px;
+}
+
+.result {
+    margin-top: .8em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: whitesmoke;
+    padding: .6em 2.8em;
+    width: 78vw;
+    max-width: 350px;
+    border: 3px solid rgba(0, 102, 255, 0.26);
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 1px whitesmoke;
+}
+
+h3 {
+    font-size: .8em;
+}
+
+img {
+    aspect-ratio: 1;
+    width: 10rem;
+    margin: 1.2em 0;
+}
+
+::placeholder {
+    color: rgba(0, 102, 255, 0.596);
+}
+
+.recipe {
+    text-shadow: rgba(0, 0, 0, 0.295) 1px 1px;
+    background: -webkit-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background-color: rgba(245, 245, 245, 0.822);
+    padding: 1em;
+    color: rgb(0, 60, 255);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+li:hover {
+    text-shadow: rgba(0, 0, 0, 0.295) 1px 1px;
+    background: -webkit-linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    color:rgba(0, 60, 255, 0.664);
+}
+
+h3 {
+    color: rgba(53, 53, 53, 0.616);
+}
+
+h3 a {
+    color: rgb(49, 48, 48);
+}
